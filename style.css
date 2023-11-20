@@ -39,12 +39,24 @@ body {
     background-color: green;
 }
 
+.bg-lightgreen {
+    background-color: rgb(33, 165, 154);
+}
+
+.bg-red {
+    background-color: rgb(234, 105, 109);
+}
+
 .h-100 {
     height: 100%;
 }
 
 .border {
     border: 2px dashed black
+}
+
+.borderwhite {
+    border: 2px dashed white
 }
 
 /* !Header top*/
@@ -78,12 +90,12 @@ ul {
     justify-content: center;
 }
 
-div.logo {
+header div.logo {
     flex-basis: 10%;
     justify-content: flex-start;
 }
 
-div.login {
+header div.login {
     flex-basis: 10%;
     justify-content: flex-end;
 }
@@ -121,4 +133,50 @@ section {
 
 .bigbox {
     flex-basis: 100%;
+    height: 600px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(26, 29, 31);
+    padding: 40px;
+}
+
+/* Footer top */
+.footer-top {
+    min-height: 600px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid purple;
+}
+
+.left {
+    flex-basis: 30%;
+}
+
+.right {
+    flex-basis: 70%;
+}
+
+.footer-nav {
+    height: 100%;
+    flex-basis: 100%;
+}
+
+.col-nav {
+    border: 2px dashed white;
+    flex-basis: 25%;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    background-color: aquamarine;
+    margin-top: 20px;
+    min-height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom>* {
+    background-color: rgb(253, 176, 192);
+    padding: var(--paddings);
 }
