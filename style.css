@@ -1,0 +1,16 @@
+/* Reset CSS */
+body {
+    max-width: 1080px;
+    Margin: 0 auto;
+    Padding: 0;
+    Box-sizing: border-box;
+    font: 14px Arial, Helvetica, sans-serif;
+}
+
+/* Shorthand */
+:root {
+    --border: 1px dashed black;
+    --paddingm: 10px;
+    --paddings: 5px;
+    --marginm: 10px;
+}
